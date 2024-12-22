@@ -1,20 +1,16 @@
-const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-	mode: "development", // mode development
 	entry: "./src/index.js", // titik awal dari aplikasi kita
-	output: {
-		path: path.resolve(__dirname, "output"), // direktori output
-		filename: "bundle.js", // nama file output
-	},
+	plugins: [
+		new HtmlWebpackPlugin({
+			template: "./src/template.html",
+		}),
+	],
 	watch: true, // memantau perubahan file secara otomatis
 	devtool: false, // tidak menggunakan source map
 	module: {
 		rules: [
-			// {
-			// 	test: /\.css$/i, // file yang akan di compile adalah file css
-			// 	use: ["style-loader", "css-loader"], // style loader untuk memasukkan css ke dalam file html, css loader untuk mengcompile css
-			// },
 			{
 				test: /\.(?:js|mjs|cjs)$/,
 				exclude: /node_modules/,
