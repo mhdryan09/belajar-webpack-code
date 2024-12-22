@@ -3,22 +3,22 @@
 ## Alasan penggunaan adanya Module System
 
 1. Reusability
-   Modul bisa digunakan kembali oleh bagian program lain, atau bisa menjadi package untuk app lain.
+   - Modul bisa digunakan kembali oleh bagian program lain, atau bisa menjadi package untuk app lain.
 
 2. Isolation
-   Satu modul mengerjakan hanya yang spesifik saja.
+   - Satu modul mengerjakan hanya yang spesifik saja.
 
 3. Organization
-   Kemudahan pengelolaan aplikasi secara keseluruhan.
+   - Kemudahan pengelolaan aplikasi secara keseluruhan.
 
 ---
 
 ## Module System pada Javascript
 
-1995 - 2000 : No Module System
-2000 - 1010 : IIFE (Immediately Invoked Function Expression)
-2010 - 2015 : CommonJS & NodeJS
-2015 - Sekarang : ES6 Modules
+- 1995 - 2000 : No Module System
+- 2000 - 1010 : IIFE (Immediately Invoked Function Expression)
+- 2010 - 2015 : CommonJS & NodeJS
+- 2015 - Sekarang : ES6 Modules
 
 ## No Modules
 
