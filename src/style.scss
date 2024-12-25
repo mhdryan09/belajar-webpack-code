@@ -1,8 +1,10 @@
-@use "bootstrap" as *;
+// @use "bootstrap" as *;
 
 $bg: rgb(26, 185, 238);
 $primary: lightblue;
 $danger: salmon;
+
+@import "bootstrap/scss/bootstrap";
 
 body {
 	background-color: $bg;
