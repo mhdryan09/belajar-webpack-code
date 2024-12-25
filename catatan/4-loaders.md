@@ -79,7 +79,7 @@ Bootstrap adalah framework CSS yang membantu dalam membuat desain responsif dan 
 
 ```scss
 // style.scss
-@import "~bootstrap/scss/bootstrap";
+@use "~bootstrap/scss/bootstrap";
 
 // Menggunakan variabel dan mixin dari Bootstrap
 body {
